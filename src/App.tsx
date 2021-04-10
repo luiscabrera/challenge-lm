@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
+import Results from './views/Results.view';
 
 function App() {
   return (
     <div className="App">
-      <p>Hola Challenge Meli</p>
+      <p>Challenge Meli</p>
+      <Results query={"pantalon verde"} />
     </div>
   );
 }

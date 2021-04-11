@@ -1,6 +1,7 @@
+import React from "react";
 import { CircularProgress, Grid, Typography } from "@material-ui/core";
-import { Item } from "../models/Item";
-import useObtainItems from "../hooks/obtainItems.hook";
+import { Item } from "../../models/Item";
+import useObtainItems from "../../hooks/obtainItems.hook";
 
 interface IProps {
     query: string;

@@ -19,6 +19,7 @@ const useObtainItems = (query: string) => {
         // return () => {
         //     mounted = false;
         // }
+        // eslint-disable-next-line
     }, [items]);
 
     return items;

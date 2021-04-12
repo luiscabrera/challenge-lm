@@ -1,4 +1,7 @@
 export const colors = {
+    // basicos
+    BLACK: "#000000",
+    WHITE: "#FFFFFF",
     // buscador - resultados - detalle
     YELLOW_MELI: "#FFF600",
     GREY_333_MELI: "#333333",

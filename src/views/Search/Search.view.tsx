@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
-import InputSearch from "../../components/InputSearch.component";
+import InputSearch from "../../components/Inputs/InputSearch.component";
 import { useStyles } from "./Search.style";
 import logoMeli from "../../assets/Logo_ML.png";
 

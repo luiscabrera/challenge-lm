@@ -1,13 +1,17 @@
 import React, { useState } from "react";
 import Paper from "@material-ui/core/Paper";
-import iconSearch from "../assets/ic_Search.png";
+import iconSearch from "../../assets/ic_Search.png";
 import { useStyles } from "./InputSearch.style";
 import { IconButton, InputBase } from "@material-ui/core";
 
-const InputSearch = () => {
+interface IInputSearchProps {
+    query?: string;
+}
+
+const InputSearch = ({ query = "" }: IInputSearchProps) => {
 
     const classes = useStyles();
-    const [value, setValue] = useState("");
+    const [value, setValue] = useState(query);
 
     return (
         <Paper component="form" className={classes.root}>

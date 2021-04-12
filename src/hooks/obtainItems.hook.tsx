@@ -20,7 +20,7 @@ const useObtainItems = (query: string) => {
         //     mounted = false;
         // }
         // eslint-disable-next-line
-    }, [items]);
+    }, []);
 
     return items;
 }
